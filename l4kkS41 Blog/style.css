@@ -1,0 +1,101 @@
+/*
+Theme Name: l4kkS41 Blog
+Theme URI: https://l4kks41.com
+Author: l4kkS41
+Author URI: https://l4kks41.com
+Description: Personal blog
+Requires at least: 6.5
+Tested up to: 6.6
+Requires PHP: 7.0
+Version: 1.0
+License: The MIT License (MIT)
+License URI: https://mit-license.org/
+Text Domain: l4kkS41
+Tags: blog
+*/
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+body{
+    background: gray;
+    font-family: 'HarmoneyOS-Sans', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+header .container {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    background: #FFFFFF;
+}
+
+.main-box{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.list{
+    background: #FFFFFF;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #DDDDDD;
+}
+
+.list .date-line{
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+}
+
+.list p{
+    color: #737373;
+    margin-top: 0;
+}
+
+.pagination {
+    margin-bottom: 20px;
+}
+.pagination .page-numbers{
+    background: #FFFFFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.pagination .current{
+    background: #000000;
+    color: #FFFFFF;
+}
+.pagination .nav-links .prev,
+.pagination .nav-links .next{
+    width: auto;
+    border-radius: 15px;
+    padding: 0 15px;
+}
+.pagination .screen-reader-text {
+    display: none;
+}
+.pagination .nav-links {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'HarmoneyOS-Sans';
+    src: url('./assets/fonts/HarmonyOS-Sans.woff2');
+}
